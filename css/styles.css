@@ -1,0 +1,217 @@
+:root {
+    --main-background-color: #FFFFFF;
+    --sec-background-color: #F5F4FA;
+    --dark-background-color: #2F303A;
+
+    --accent-color: #2196F3;
+
+    --text-color: #212121;
+    --sec-text-color: #757575;
+    --light-text-color: #FFFFFF;
+}
+
+
+body {
+    /* width: 1230px;
+    padding-left: 15px;
+    padding-right: 15px; */
+    
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+    font-family: Roboto, sans-serif;
+}
+
+/*header-container*/
+header {
+    /* height: 80px; */
+    background-color: var(--main-background-color);
+}
+
+ul, a,
+.current {
+    list-style: none;
+    text-decoration: none;
+}
+
+.current {
+    color: var(--accent-color);
+}
+
+
+/*navigation-container*/
+.nav-logo-title,
+.logo-title {
+    font-family: Raleway, sans-serif;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+}
+
+.nav-logo-title > span {
+    color: var(--accent-color);
+}
+
+.nav-logo-title {
+    color: var(--text-color);
+}
+
+.logo-title {
+    color: var(--accent-color);
+}
+
+
+.navigation-links,
+.nav-link,
+.navigation-contacts,
+.contacts {
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    text-decoration: none;
+}
+
+.navigation-links,
+.nav-link{
+    color: var(--text-color);
+}
+
+.navigation-contacts,
+.contacts {
+    color: var(--sec-text-color);
+}
+
+.nav-link:focus,
+.nav-link:hover,
+.contacts:focus,
+.contacts:hover {
+    color: var(--accent-color);
+    transition: color 0.25s;
+}
+
+
+
+/* hero container */
+.hero-title {
+    color: var(--light-text-color);
+    background-color: var(--dark-background-color);
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.button-primary {
+    border-radius: 4px;
+    padding: 10px 32px;
+    font-weight: 700; 
+    font-size: 16px;
+    line-height: 1.9;
+    text-decoration: none;
+
+    align-items: center;
+    text-align: center;
+
+    color: var(--light-text-color);
+    background: var(--accent-color);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+    border-radius: 4px;
+}
+
+.section-title {
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+}
+
+.skills {
+    font-size: 14px;
+    text-transform: uppercase;
+}
+
+.skills-description {
+    line-height: 1.71;
+
+    color: var(--sec-text-color);
+}
+
+.names {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    /* text-align: center; */
+
+    color: var(--text-color);
+}
+
+.profesion {
+    font-size: 16px;
+    line-height: 1.19;
+
+    text-align: center;
+
+    color: var(--sec-text-color);
+}
+
+
+/* portfolio */
+.buttons,
+.current-button {
+    background: var(--sec-background-color);
+    border-radius: 4px;
+    border-style: none;
+
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+
+    color: var(--text-color);
+}
+
+.buttons:focus,
+.buttons:hover,
+.current-button {
+    color: var(--light-text-color);
+    background-color:  var(--accent-color);
+    transition: color 0.25s, background-color 0.25s;
+    box-shadow: 0 0.5em 0.5em -0.4em var(--text-color);
+    transform: translateY(-0.15em);
+    cursor: pointer;
+}
+
+
+.project-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    color: var(--text-color);
+}
+
+.project-technology {
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: var(--sec-text-color);
+}
+
+/* footer */
+.footer-container {
+    background-color: var(--dark-background-color);
+}
+
+.location {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.location,
+.studio-footer {
+    color: var(--light-text-color);
+}
