@@ -48,6 +48,18 @@ header {
 
 
 /*navigation-container*/
+.nav-bar {
+    display: flex;
+    align-items: center;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
 .nav-logo-title,
 .logo-title {
     margin-top: 24px;
@@ -66,10 +78,6 @@ header {
     color: var(--accent-color);
 }
 
-.nav-logo-title {
-    color: var(--text-color);
-}
-
 
 .navigation-links,
 .nav-link,
@@ -81,6 +89,7 @@ header {
     text-decoration: none;
 }
 
+.nav-logo-title,
 .navigation-links,
 .nav-link {
     color: var(--text-color);
@@ -162,6 +171,7 @@ header {
 }
 
 .skills-description {
+    flex-wrap: wrap;
     margin-top: 0;
     margin-bottom: 0;
     line-height: 1.71;
@@ -199,8 +209,7 @@ header {
 }
 
 
-.team-person {
-}
+
 .our-team-container {
     margin-top: 94px;
     height: 648px;
