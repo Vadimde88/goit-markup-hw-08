@@ -168,6 +168,7 @@ header {
     text-align: center;
 }
 
+/* Skills section */
 .skills-container {
     padding-bottom: 94px;
 }
@@ -186,6 +187,11 @@ header {
     line-height: 1.71;
 
     color: var(--sec-text-color);
+}
+
+/* Images section */
+.images-container {
+    padding-bottom: 94px;
 }
 
 .images {
@@ -240,12 +246,13 @@ header {
     color: var(--sec-text-color);
 }
 
-
+.our-team {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 
 .our-team-container {
-    margin-top: 94px;
-    height: 648px;
-    background-color: #F5F4FA;
+    background-color: var(--sec-background-color)
 }
 
 
