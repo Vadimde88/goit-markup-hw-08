@@ -159,9 +159,7 @@ header {
     background: var(--accent-color);
 }
 
-
 .section-title {
-    padding-top: 94px;
     padding-bottom: 50px;
     margin-top: 0;
     margin-bottom: 0;
@@ -170,6 +168,9 @@ header {
     text-align: center;
 }
 
+.skills-container {
+    padding-bottom: 94px;
+}
 
 .skills {
     margin-top: 0;
@@ -198,8 +199,12 @@ header {
 
 
 /*team container*/
+ .descr-container {
+     padding-top: 30px;
+     padding-bottom: 30px;
+ }
+
 .names {
-    padding-top: 30px;
     margin-top: 0;
     margin-bottom: 10px;
     font-weight: 500;
@@ -226,7 +231,7 @@ header {
 }
 .profession {
     margin-top: 0;
-    padding-bottom: 30px;
+    margin-bottom: 0;
     font-size: 16px;
     line-height: 1.19;
 
