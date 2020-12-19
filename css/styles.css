@@ -62,9 +62,9 @@ header {
 
 .nav-logo-title,
 .logo-title {
-    margin-top: 24px;
-    margin-bottom: 25px;
-    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 25px;
+    padding-right: 93px;
     font-family: Raleway, sans-serif;
     text-decoration: none;
     font-weight: 700;
@@ -87,6 +87,7 @@ header {
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
+    color: var(--sec-text-color);
 }
 
 .nav-logo-title,
@@ -100,18 +101,22 @@ header {
 }
 
 
-.contacts {
+.nav-tel {
     margin-left: 50px;
-    color: var(--sec-text-color);
 }
 
 
 .nav-link:focus,
 .nav-link:hover,
 .contacts:focus,
-.contacts:hover {
+.contacts:hover,
+.contacts-email:focus,
+.contacts-email:hover,
+.contacts-tel:focus,
+.contacts-tel:hover {
     color: var(--accent-color);
     transition: color 0.25s;
+    cursor: pointer;
 }
 
 
@@ -123,8 +128,9 @@ header {
     margin-bottom: 93px;
 }
 .hero-title {
-    margin-top: 0;
-    margin-bottom: 30;
+    margin: 0;
+    padding-bottom: 30px;
+    padding-top: 200px;
     color: var(--light-text-color);
     
 
@@ -179,6 +185,10 @@ header {
     color: var(--sec-text-color);
 }
 
+.images {
+    display: flex;
+    justify-content: center;
+}
 .coding2-image {
     margin-right: 30px;
     margin-left: 30px;
@@ -187,7 +197,8 @@ header {
 
 /*team container*/
 .names {
-    margin-top: 30px;
+    padding-top: 30px;
+    margin-top: 0;
     margin-bottom: 10px;
     font-weight: 500;
     font-size: 16px;
@@ -213,7 +224,7 @@ header {
 }
 .profession {
     margin-top: 0;
-    margin-bottom: 30px;
+    padding-bottom: 30px;
     font-size: 16px;
     line-height: 1.19;
 
@@ -285,6 +296,7 @@ header {
 .projects {
     padding: 0;
     margin-top: 34px;
+    margin-bottom: 94px;
     list-style: none;
     display: flex;
     flex-flow: wrap;
@@ -339,14 +351,19 @@ header {
 .contacts-tel,
 .contacts-email {
     display: inline-block;
-    margin-bottom: 9px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.14;
     text-decoration: none;
 
     color: var(--sec-text-color);
-    
+}
+
+.footer-email {
+    margin-bottom: 9px;
+}
+.footer-tel {
+    padding-bottom: 60px;
 }
 
 .footer-contacts {

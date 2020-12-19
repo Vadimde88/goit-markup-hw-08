@@ -33,8 +33,9 @@
 
             <!--Contacts container-->
             <ul class="navigation-contacts list">
-                <li><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                </li>
+                <li class="nav-tel"><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
         </div>
     </header>
@@ -49,8 +50,8 @@
 
 
         <!--What we do section-->
-        <div class="container">
-            <section>
+        <section>
+            <div class="container">
                 <ul class="list">
                     <li class="skill-title">
                         <h3 class="skills">Attention to details</h3>
@@ -78,44 +79,57 @@
                             implementation of planned targets.</p>
                     </li>
                 </ul>
+            </div>
+
+            <div class="what-we-do-container">
                 <h2 class="section-title">What we do</h2>
 
-                <ul class="list">
+                <ul class="images list">
                     <li><img src="./images/coding-pic.jpg" alt="coding1"></li>
                     <li class="coding2-image"><img src="./images/phone-pic.jpg" alt="coding2"></li>
                     <li><img src="./images/tablet-pic.jpg" alt="coding3"></li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
 
         <!--Our team section-->
-        <div class="our-team-container">
-            <section class="our-team">
+
+        <section class="our-team-container">
+            <div class="our-team">
                 <h2 class="section-title">Our team</h2>
                 <ul class="team list">
                     <li class="team-person">
                         <img src="./images/igor.jpg" alt="photo of igor" width="270">
-                        <h3 class="names">Igor Demjanenko</h3>
-                        <p class="profession">Product Designer</p>
+                        <div>
+                            <h3 class="names">Igor Demjanenko</h3>
+                            <p class="profession">Product Designer</p>
+                        </div>
                     </li>
                     <li class="team-person">
                         <img src="./images/olga.jpg" alt="photo of olga" width="270">
-                        <h3 class="names">Olga Repina</h3>
-                        <p class="profession">Frontend Developer</p>
+                        <div>
+                            <h3 class="names">Olga Repina</h3>
+                            <p class="profession">Frontend Developer</p>
+                        </div>
                     </li>
                     <li class="team-person">
                         <img src="./images/nikolai.jpg" alt="photo of nikolai" width="270">
-                        <h3 class="names">Nikolai Tarasov</h3>
-                        <p class="profession">Marketing</p>
+                        <div>
+                            <h3 class="names">Nikolai Tarasov</h3>
+                            <p class="profession">Marketing</p>
+                        </div>
                     </li>
                     <li class="team-person">
                         <img src="./images/michail.jpg" alt="photo of michail" width="270">
-                        <h3 class="names">Michail Ermakov</h3>
-                        <p class="profession">UI Designer</p>
+                        <div>
+                            <h3 class="names">Michail Ermakov</h3>
+                            <p class="profession">UI Designer</p>
+                        </div>
                     </li>
                 </ul>
-            </section>
-        </div>
+            </div>
+        </section>
+
     </main>
 
     <!--Footer container-->
@@ -128,8 +142,9 @@
                 г. Киев, пр-т Леси Украинки, 26
             </address>
             <ul class="footer-contacts">
-                <li><a class="contacts-email" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="footer-email"><a class="contacts-email"
+                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                <li class="footer-tel"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
             </ul>
 
         </div>
