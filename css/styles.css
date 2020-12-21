@@ -135,6 +135,9 @@ a {
 
 
 /* hero container */
+.hero > div {
+    display: block;
+}
 .hero {
     padding-top: 200px;
     padding-bottom: 200px;
