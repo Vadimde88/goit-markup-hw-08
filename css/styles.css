@@ -1,6 +1,7 @@
 :root {
     --main-background-color: #FFFFFF;
     --sec-background-color: #F5F4FA;
+    --third-background-color: #C4C4C4;
     --dark-background-color: #2F303A;
 
     --accent-color: #2196F3;
@@ -135,24 +136,44 @@ a {
 
 
 /* hero container */
-.hero > div {
-    display: block;
-}
-.hero {
+
+.overlay {
+    max-width: 1600px;
+    height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
-    text-align: center;
-    background-color: var(--dark-background-color);
-}
-.hero-title {
-    margin: 0 0 30px 0;
-    color: var(--light-text-color);
+    margin: 0 auto;
     
+    display: block;
+
+    background-image: url(../images/hero-background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/hero-background.jpg)
+}
+
+.hero {
+    padding: 0;
+    text-align: center;
+
+    background-color: var(--third-background-color);
+    
+}
+
+.hero-title {
+    max-width: 696px;
+    margin: 0 auto 30px auto;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
-
     text-transform: uppercase;
+
+    color: var(--light-text-color);
 }
 
 .button-primary {
