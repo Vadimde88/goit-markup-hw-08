@@ -33,9 +33,16 @@
 
             <!--Contacts container-->
             <ul class="navigation-contacts list">
-                <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">
+                        <svg class="icon-envelope">
+                            <use href='./images/symbol-defs.svg#icon-envelope'></use>
+                        </svg>info@devstudio.com</a>
                 </li>
-                <li class="nav-tel"><a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                <li class="nav-tel"><a class="contacts" href="tel:+380961111111">
+                        <svg class="icon-smartphone">
+                            <use href='./images/symbol-defs.svg#icon-smartphone'></use>
+                        </svg>+38 096 111 11 11</a>
+                </li>
             </ul>
         </div>
     </header>
@@ -53,6 +60,30 @@
 
         <!--Skills section-->
         <section>
+            <div class="skills-img-container">
+                <ul class="skills-icons list">
+                    <li class="skills-icon-link">
+                        <svg class="skill-icon">
+                            <use href='./images/symbol-defs.svg#icon-antenna'></use>
+                        </svg>
+                    </li>
+                    <li class="skills-icon-link">
+                        <svg class="skill-icon">
+                            <use href='./images/symbol-defs.svg#icon-clock'></use>
+                        </svg>
+                    </li>
+                    <li class="skills-icon-link">
+                        <svg class="skill-icon">
+                            <use href='./images/symbol-defs.svg#icon-diagram'></use>
+                        </svg>
+                    </li>
+                    <li class="skills-icon-link">
+                        <svg class="skill-icon">
+                            <use href='./images/symbol-defs.svg#icon-astronaut'></use>
+                        </svg>
+                    </li>
+                </ul>
+            </div>
             <div class="skills-container container">
                 <ul class="list">
                     <li class="skills">
@@ -97,7 +128,6 @@
         </section>
 
         <!--Our team section-->
-
         <section class="our-team-container">
             <div class="our-team">
                 <h2 class="section-title">Our team</h2>
@@ -257,24 +287,108 @@
             </div>
         </section>
 
+        <!--Permanent clients-->
+        <section>
+            <div class="clients-container">
+                <h2 class="section-title">Permanent clients</h2>
+                <ul class="logo-list list">
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo-2'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo-3'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo-4'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo-5'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="logo">
+                        <a class="logo-link" href="#">
+                            <svg class="logo-icon">
+                                <use href='./images/symbol-defs.svg#icon-logo-6'></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </section>
+
     </main>
 
     <!--Footer container-->
     <footer class="page-footer">
         <div class="footer-container">
-            <a class="logo-title" href="./index.html">
-                <span>Web</span><span class="studio-footer">Studio</span>
-            </a>
-            <address class="location">
-                г. Киев, пр-т Леси Украинки, 26
-            </address>
-            <ul class="footer-contacts">
-                <li class="footer-email"><a class="contacts-email"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                <li class="footer-tel"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                <p class="subscribe">SUBSCRIBE</p>
-            </ul>
-
+            <div class="first-column">
+                <a class="logo-title" href="./index.html">
+                    <span>Web</span><span class="studio-footer">Studio</span>
+                </a>
+                <address class="location">
+                    г. Киев, пр-т Леси Украинки, 26
+                </address>
+                <ul class="footer-contacts">
+                    <li class="footer-email"><a class="contacts-email"
+                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                    <li class="footer-tel"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+                </ul>
+            </div>
+            <div class="second-column">
+                <p class="subscribe">subscribe</p>
+                <ul class="footer-social-links list">
+                    <li class="footer-social-item">
+                        <a class="footer-icon-link" href="#">
+                            <svg class="footer-social-icon">
+                                <use href='./images/symbol-defs.svg#icon-instagram'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-icon-link" href="#">
+                            <svg class="footer-social-icon">
+                                <use href='./images/symbol-defs.svg#icon-twitter'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-icon-link" href="#">
+                            <svg class="footer-social-icon">
+                                <use href='./images/symbol-defs.svg#icon-facebook'></use>
+                            </svg>
+                        </a>
+                    </li>
+                    <li class="footer-social-item">
+                        <a class="footer-icon-link" href="#">
+                            <svg class="footer-social-icon">
+                                <use href='./images/symbol-defs.svg#icon-linkedin'></use>
+                            </svg>
+                        </a>
+                    </li>
+                </ul>
+            </div>
         </div>
     </footer>
 
