@@ -242,12 +242,12 @@ a {
 /*team container*/
  .descr-container {
      padding-top: 30px;
-     padding-bottom: 30px;
+     margin-bottom: 10px;
  }
 
 .names {
     margin-top: 0;
-    margin-bottom: 10px;
+    margin-bottom: 16px;
     font-weight: 500;
     font-size: 16px;
     line-height: 1.19;
@@ -257,9 +257,7 @@ a {
 }
 
 .team-person {
-    
     margin-right: 30px;
-    height: 368px;
 
     background: #FFFFFF;
 
@@ -284,6 +282,35 @@ a {
 .our-team-container {
     background-color: var(--sec-background-color)
 }
+
+.social-links {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px 30px;
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    
+    fill: var(--light-text-color);
+    border-radius: 50%;
+}
+.icon-link:hover,
+.icon-link:focus {
+    fill: var(--light-text-color);
+    background-color: var(--accent-color);
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
 
 
 
@@ -416,4 +443,10 @@ a {
     margin-bottom: 0;
     padding: 0;
 
+}
+
+.subscribe {
+    color: var(--light-text-color);
+    display: flex;
+    justify-content: ;
 }
