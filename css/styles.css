@@ -108,7 +108,7 @@ a {
 .nav-link,
 .navigation-contacts,
 .contacts {
-    align-items: baseline;
+    align-items: center;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -159,13 +159,17 @@ a {
 /* hero container */
 
 .overlay {
+    width: 696px;
+    margin: 0 auto;
+}
+
+.hero {
     max-width: 1600px;
     height: 600px;
     padding-top: 200px;
     padding-bottom: 200px;
+
     margin: 0 auto;
-    
-    display: block;
 
     background-image: url(../images/hero-background.jpg);
     background-repeat: no-repeat;
@@ -175,11 +179,7 @@ a {
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
     ),
-    url(../images/hero-background.jpg)
-}
-
-.hero {
-    padding: 0;
+    url(../images/hero-background.jpg);
     text-align: center;
 
     background-color: var(--third-background-color);
@@ -187,8 +187,7 @@ a {
 }
 
 .hero-title {
-    max-width: 696px;
-    margin: 0 auto 30px auto;
+    margin-top: 0;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
@@ -283,20 +282,8 @@ a {
 
 
 /*team container*/
- .descr-container {
-     padding-top: 30px;
-     margin-bottom: 10px;
- }
-
-.names {
-    margin-top: 0;
-    margin-bottom: 16px;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.19;
-    text-align: center;
-
-    color: var(--text-color);
+.our-team-container {
+    background-color: var(--sec-background-color)
 }
 
 .team-person {
@@ -311,9 +298,26 @@ a {
 .team-person:last-child {
     margin-right: 0;
 }
+
+.descr-container {
+     padding: 30px 0;
+     
+ }
+ 
+.names {
+    margin-top: 0;
+    margin-bottom: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+
+    color: var(--text-color);
+}
+
 .profession {
     margin-top: 0;
-    margin-bottom: 0;
+    margin-bottom: 16px;
     font-size: 16px;
     line-height: 1.19;
 
@@ -322,14 +326,10 @@ a {
     color: var(--sec-text-color);
 }
 
-.our-team-container {
-    background-color: var(--sec-background-color)
-}
-
 .social-links {
     display: flex;
     justify-content: space-between;
-    margin: 0 32px 30px;
+    margin: 0 32px;
 }
 
 .icon-link {
