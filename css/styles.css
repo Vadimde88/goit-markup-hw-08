@@ -332,9 +332,10 @@ a {
 .product {   
     display: flex; 
     position: relative;
+    
 }
 
-.image-title {
+.image-overlay {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -348,6 +349,11 @@ a {
 
     color: var(--light-text-color);
     background: rgba(47, 48, 58, 0.8);
+}
+
+.image-title {
+    text-transform: uppercase;
+    color: var(--light-text-color);
 }
 
 
@@ -561,7 +567,6 @@ a {
 
 /* Project-overlay */
 .description {
-    display: flex;
     position: relative;
 
     overflow: hidden;
@@ -583,7 +588,7 @@ a {
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.project-overlay > p {
+.tech-description {
     margin: 0;
     padding: 63px 24px;
 
@@ -596,8 +601,8 @@ a {
     color: var(--light-text-color);
 }
 
-.description:hover .project-overlay,
-.description:focus .project-overlay {
+.project-content:hover .project-overlay,
+.project-content:focus .project-overlay {
     transform: translateY(0);
 }
 
