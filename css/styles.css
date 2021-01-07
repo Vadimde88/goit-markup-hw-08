@@ -773,6 +773,8 @@ a {
 .modal-button {
     position: absolute;
     right: 0;
+    padding-top: 8px;
+    padding-right: 8px;
 
     width: 30px;
     height: 30px;
