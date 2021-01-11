@@ -968,7 +968,7 @@ input:focus + .modal-icon {
 
 .modal-policy-text {
     display: flex;
-    align-items: baseline;
+    align-items: center;
 
     font-size: 14px;
     line-height: 1.71;
