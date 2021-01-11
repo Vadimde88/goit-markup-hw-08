@@ -870,6 +870,10 @@ a {
     color: var(--sec-text-color);
 }
 
+.form-field {
+    margin-bottom: 10px;
+}
+
 .form-field input {
     height: 40px;
     padding-left: 42px;
@@ -907,16 +911,6 @@ textarea::placeholder {
     display: flex;
     flex-direction: column;
     margin-bottom: 10px;
-}
-
-.policy {
-    margin-top: 10px;
-    margin-bottom: 30px;
-
-    font-size: 14px;
-    line-height: 1.71;
-
-    color: var(--sec-text-color);
 }
 
 .terms {
@@ -962,4 +956,49 @@ textarea::placeholder {
 
 input:focus + .modal-icon {
     fill: var(--accent-color);
+}
+
+.modal-checkbox {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+
+    position: absolute;
+}
+
+.modal-policy-text {
+    display: flex;
+    align-items: baseline;
+
+    font-size: 14px;
+    line-height: 1.71;
+    color: var(--sec-text-color);
+    
+}
+
+.terms {
+    padding-left: 4px;
+}
+.policy {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    display: inline-block;
+    width: 16px;
+    height: 15px;
+    margin-right: 8px;
+
+    border: 2px solid var(--text-color);
+    border-radius: 4px;
+}
+
+.modal-checkbox:checked + .icon {
+    background-color: var(--accent-color);
+    background-image: url(../images/icon-check.svg);
+    background-size: contain;
+    background-origin: border-box;
+    border: var(--accent-color);
 }
