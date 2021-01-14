@@ -354,6 +354,7 @@ a {
 }
 
 .image-title {
+    margin: 0;
     text-transform: uppercase;
     color: var(--light-text-color);
 }
