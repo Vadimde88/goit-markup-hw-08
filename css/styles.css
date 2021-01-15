@@ -175,7 +175,7 @@ a {
     border-radius: 2px;
     background-color: var(--accent-color);
       
-    transition-property: background-color;
+    transition-property: fill, background-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
     transform: scale(0);
@@ -422,7 +422,7 @@ a {
 
     border-radius: 50%;
 
-    transition-property: background-color, color, filter;
+    transition-property: fill, background-color, color, filter;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -438,7 +438,6 @@ a {
     color: var(--light-text-color);
     background-color: var(--accent-color);
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
-    outline: transparent;
 }
 
 
@@ -463,7 +462,7 @@ a {
     box-sizing: border-box;
     border-radius: 4px;
 
-    transition-property: border-color, color, filter;
+    transition-property: fill, border-color, color, filter;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -719,7 +718,7 @@ a {
     
     border-radius: 50%;
 
-    transition-property: background-color;
+    transition-property: fill, background-color;
     transition: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
@@ -733,7 +732,6 @@ a {
 .footer-icon-link:hover,
 .footer-icon-link:focus {
     background-color: var(--accent-color);
-    outline: transparent;
 }
 
 
