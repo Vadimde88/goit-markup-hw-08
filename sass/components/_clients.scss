@@ -1,0 +1,41 @@
+/* Permanent clients */
+.logo-list {
+    display: flex;
+    justify-content: space-between;
+}
+    
+.logo-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 90px;
+    margin-right: 30px;
+    
+    color: #afb1b8;    
+    fill: currentColor;
+
+    border: 1px solid #AFB1B8;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    transition-property: fill, border-color, color, filter;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+.logo-link:last-child {
+    margin: 0;
+}
+
+.logo-icon {
+    width: 45px;
+    height: 49px;
+}
+
+.logo-link:hover,
+.logo-link:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: transparent;
+}
