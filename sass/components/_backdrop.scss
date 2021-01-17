@@ -50,11 +50,11 @@
     border-radius: 50%;
 
     box-sizing: border-box;
-}
 
-.modal-close-button:hover {
+    &:hover {
     color: $accent-color;
     cursor: pointer;
+    }
 }
 
 .modal-name {
@@ -100,15 +100,17 @@ textarea {
     border: 1px solid rgba(33, 33, 33, 0.2);
     box-sizing: border-box;
     border-radius: 4px;
-}
 
-textarea::placeholder {
+    &::placeholder {
 
     font-size: 14px;
     line-height: 1.16;
 
     color: rgba(117, 117, 117, 0.5);
+    }
 }
+
+
 
 .info-input {
     position: relative;

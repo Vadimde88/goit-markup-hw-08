@@ -22,10 +22,12 @@
 
 .skills {
     margin-right: 30px;
-}
-.skills:last-child {
+
+    &:last-child {
     margin: 0;
+    }
 }
+
 
 .skill-title {
     margin-top: 0;
