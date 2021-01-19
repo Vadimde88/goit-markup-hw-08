@@ -1,0 +1,33 @@
+.social-links {
+    display: flex;
+    justify-content: space-between;
+}
+
+.icon-link {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    
+    color: #afb1b8;    
+    fill: currentColor;
+
+    border-radius: 50%;
+
+    transition-property: fill, background-color, color, filter;
+    transition: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+    &:hover,
+    &:focus {
+    color: $light-text-color;
+    background-color: $accent-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    }
+}
+
+.social-icon {
+    width: 20px;
+    height: 20px;
+}

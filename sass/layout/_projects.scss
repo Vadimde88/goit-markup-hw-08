@@ -1,3 +1,25 @@
+/* Project-names */
+.project-name-container {
+    padding: 20px 24px;
+}
+
+.project-title {
+    margin: 0px 0px 4px 0px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+
+    color: $text-color;
+}
+
+.project-technology {
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.9;
+
+    color: $sec-text-color;
+}
+
 /* Projects-section */
 .projects {
     display: flex;
@@ -6,8 +28,6 @@
     margin: 0;
     list-style: none;
 }
-
-
 
 .project-content {
     text-decoration: none;

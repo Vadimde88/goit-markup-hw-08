@@ -1,8 +1,17 @@
-@import "./utils/variables";
-@import "./components/body";
-@import "./components/header-nav";
+@import "./abstracts/variables";
+@import "./abstracts/functions";
+@import "./abstracts/placeholders";
+@import "./abstracts/mixins";
+
+@import "./base/normalize";
+
 @import "./components/portfolio-buttons";
-@import "./components/projects";
-@import "./components/project-overlay";
-@import "./components/project-names";
-@import "./components/footer"; 
+@import "./components/projects-overlay";
+@import "./components/footer-icons";
+
+
+@import "./layout/body";
+@import "./layout/header-nav";
+@import "./layout/projects";
+@import "./layout/footer";
+@import "./layout/footer-form";

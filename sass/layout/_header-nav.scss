@@ -3,28 +3,11 @@ header {
     background-color: $main-background-color;
 }
 
-.list,
-.input-foot-container {
-    display: flex;
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-
 /*navigation-container*/
 .nav-bar {
     display: flex;
     align-items: center;
 }
-
-.container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
 
 .nav-logo-title,
 .logo-title {
@@ -42,9 +25,6 @@ header {
     color: $accent-color;
 }
 
-a {
-    display: block;
-}
 
 .icon-envelope {
     width: 16px;
