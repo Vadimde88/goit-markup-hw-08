@@ -21,9 +21,7 @@
 
 .image-overlay {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    @include center;
     
     margin: 0;
     width: 370px;

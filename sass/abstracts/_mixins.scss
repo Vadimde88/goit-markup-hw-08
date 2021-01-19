@@ -1,0 +1,11 @@
+@mixin font-size-body {
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.015em;
+}
+
+@mixin center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

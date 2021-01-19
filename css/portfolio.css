@@ -1,47 +1,3 @@
-a {
-  display: block;
-}
-
-section {
-  padding: 94px 0;
-}
-
-.list,
-.input-foot-container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  padding: 0;
-  margin: 0;
-  list-style: none;
-  text-decoration: none;
-}
-
-.container {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
-
-.container,
-.our-team,
-.main-portfolio,
-.footer-container,
-.clients-container,
-.skills-img-container {
-  width: 1200px;
-  padding-left: 15px;
-  padding-right: 15px;
-  margin-left: auto;
-  margin-right: auto;
-}
-
 /*! modern-normalize v1.0.0 | MIT License | https://github.com/sindresorhus/modern-normalize */
 /*
 Document
@@ -449,6 +405,50 @@ body {
   letter-spacing: 0.015em;
   font-family: "Roboto", sans-serif;
   background-color: #FFFFFF;
+}
+
+a {
+  display: block;
+}
+
+section {
+  padding: 94px 0;
+}
+
+.list,
+.input-foot-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  text-decoration: none;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container,
+.our-team,
+.main-portfolio,
+.footer-container,
+.clients-container,
+.skills-img-container {
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 header {
