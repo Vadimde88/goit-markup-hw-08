@@ -540,7 +540,7 @@ header {
 
 .current,
 .nav-logo-title > span,
-.logo-title {
+.logo-title-footer {
   color: #2196F3;
 }
 
@@ -873,6 +873,22 @@ header {
 }
 
 /* Footer */
+.logo-title-footer {
+  font-family: Raleway, sans-serif;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.first-column {
+  margin-right: 70px;
+}
+
+.third-column {
+  margin-left: auto;
+}
+
 .footer-container {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -925,16 +941,6 @@ header {
   margin-top: 0;
   margin-bottom: 0;
   padding: 0;
-}
-
-.second-column {
-  display: inline-block;
-  margin-right: 93px;
-}
-
-.first-column {
-  display: inline-block;
-  margin-right: 70px;
 }
 
 .subscribe-btn {
