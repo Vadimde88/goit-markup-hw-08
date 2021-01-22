@@ -20,7 +20,7 @@
 
 .image-overlay {
     position: absolute;
-    @include center;
+    @extend %center;
     
     margin: 0;
     width: 370px;

@@ -1,11 +1,11 @@
 .skill-icon {
     width: 70px;
     height: 70px;
-    @include center;
+    @extend %center;
 }
 
 .skills-icon-link {
-    @include center;
+    @extend %center;
     margin: 0 0 30px 0;
     width: 270px;
     height: 120px;

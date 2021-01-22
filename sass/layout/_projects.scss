@@ -13,7 +13,7 @@
 
 .project-technology {
     margin: 0;
-    @include fontNames;
+    @extend %fontNames;
 
     color: $sec-text-color;
 }

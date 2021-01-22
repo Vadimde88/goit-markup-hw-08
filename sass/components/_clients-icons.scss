@@ -4,7 +4,7 @@
 }
     
 .logo-link {
-    @include center;
+    @extend %center;
     width: 170px;
     height: 90px;
     margin-right: 30px;
