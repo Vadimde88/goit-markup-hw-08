@@ -345,7 +345,6 @@ summary {
   cursor: pointer;
 }
 
-/* Projects-overlay */
 .description {
   position: relative;
   overflow: hidden;
@@ -476,7 +475,6 @@ header {
   background-color: #FFFFFF;
 }
 
-/*navigation-container*/
 .nav-bar {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -627,7 +625,6 @@ header {
   cursor: pointer;
 }
 
-/* Project-names */
 .project-name-container {
   padding: 20px 24px;
 }
@@ -692,7 +689,6 @@ header {
   margin-bottom: 0;
 }
 
-/* Footer */
 .logo-title-footer {
   font-family: Raleway, sans-serif;
   text-decoration: none;
