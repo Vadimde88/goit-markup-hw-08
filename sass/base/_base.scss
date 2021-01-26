@@ -23,18 +23,13 @@ section {
     text-decoration: none;
 }
 
-.container {
+.flex-cont {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.container, 
-.our-team,
-.main-portfolio,
-.footer-container,
-.clients-container,
-.skills-img-container {
+.container{
     width: 1200px;
     padding-left: 15px;
     padding-right: 15px;
