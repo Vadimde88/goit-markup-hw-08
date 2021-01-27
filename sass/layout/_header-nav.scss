@@ -44,7 +44,7 @@ header {
 
     transition-property: color;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $main-timing-function;
 }
 
 .navigation-links,
@@ -68,7 +68,7 @@ header {
 
     transition-property: color;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $main-timing-function;
 }
 
 .nav-logo-title,
@@ -115,7 +115,7 @@ header {
       
     transition-property: fill, background-color;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $main-timing-function;
     transform: scale(0);
 }
 

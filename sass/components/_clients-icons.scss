@@ -18,7 +18,7 @@
 
     transition-property: fill, border-color, color, filter;
     transition: 250ms;
-    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-timing-function: $main-timing-function;
 
     &:last-child {
     margin: 0;

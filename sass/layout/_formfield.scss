@@ -60,7 +60,6 @@ textarea {
     left: 14px;
     top: 50%;
     transform: translateY(-50%);
-
 }
 
 .terms {
@@ -133,6 +132,10 @@ input:focus + .modal-icon {
 
     border: 2px solid $text-color;
     border-radius: 4px;
+}
+
+.modal-checkbox:focus ~ span::before{
+    outline: 2px solid $text-color;
 }
 
 .modal-checkbox:checked + span::before {
