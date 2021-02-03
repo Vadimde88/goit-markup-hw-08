@@ -1,9 +1,15 @@
 .skills-list {
+    display: block;
 
     @media (min-width: $tablet-width) {
         display: flex;
         flex-wrap: wrap;
-        width: 354px;
+        justify-content: space-between;
+    }
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
     }
 }
 
@@ -12,6 +18,15 @@
 
     &:last-child {
     margin: 0;
+    }
+
+    @media (min-width: $tablet-width) {
+        width: 354px;
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 270px;
+        margin: 0;
     }
 }
 
@@ -22,6 +37,10 @@
 
     background: $sec-background-color;
     border-radius: 4px;
+
+    @media (min-width: $desktop-width) {
+        width: 270px;
+    }
 }
 
 .skill-icon {
@@ -34,10 +53,13 @@
     margin-top: 0;
     margin-bottom: 10px;
     font-size: 14px;
-    text-transform: uppercase;
+    text-transform: uppercase;    
 
-    text-align: center;
+    @media (max-width: $tablet-width) {
+        text-align: center;
+    }
 }
+
 
 .skills-description {
     flex-wrap: wrap;
@@ -46,4 +68,8 @@
     line-height: 1.71;
 
     color: $sec-text-color;
+
+    @media (min-width: $desktop-width) {
+        width: 270px;
+    }
 }
