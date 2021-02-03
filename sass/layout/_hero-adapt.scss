@@ -1,12 +1,16 @@
 .hero-container {
-    padding: 0;
+    width: 360px;
+
+    @media (min-width: $desktop-width) {
+        width: 696px;
+    }
 }
 
 .hero {
     max-width: 1600px;
-    height: 400px;
+    max-height: 400px;
     padding-top: 118px;
-    padding-bottom: 30px;
+    padding-bottom: 118px;
 
     margin: 0 auto;
 
@@ -23,6 +27,12 @@
     text-align: center;
 
     background-color: $third-background-color;
+
+    @media (min-width: $desktop-width) {
+        max-height: 600px;
+        padding-top: 200px;
+        padding-bottom: 200px;
+    }
     
 }
 
@@ -30,10 +40,15 @@
     margin-top: 0;
     font-weight: 900;
     font-size: 26px;
-    line-height: 1.36;
+    line-height: 1.61;
     text-transform: uppercase;
 
     color: $light-text-color;
+
+    @media (min-width: $desktop-width) {
+        font-size: 44px;
+        line-height: 1.36;
+    }
 }
 
 .button-primary {

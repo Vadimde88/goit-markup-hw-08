@@ -1,0 +1,49 @@
+.skills-list {
+
+    @media (min-width: $tablet-width) {
+        display: flex;
+        flex-wrap: wrap;
+        width: 354px;
+    }
+}
+
+.skills {
+    margin-bottom: 30px;
+
+    &:last-child {
+    margin: 0;
+    }
+}
+
+.skills-icon-link {
+    @extend %center;
+    margin: 0 0 30px 0;
+    height: 120px;
+
+    background: $sec-background-color;
+    border-radius: 4px;
+}
+
+.skill-icon {
+    width: 70px;
+    height: 70px;
+    @extend %center;
+}
+
+.skill-title {
+    margin-top: 0;
+    margin-bottom: 10px;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    text-align: center;
+}
+
+.skills-description {
+    flex-wrap: wrap;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.71;
+
+    color: $sec-text-color;
+}
