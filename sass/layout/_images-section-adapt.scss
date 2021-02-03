@@ -1,0 +1,7 @@
+.images-container {
+    display: none;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+    }
+}

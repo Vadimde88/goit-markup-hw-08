@@ -17,8 +17,8 @@
 
 <body>
     <!--Navbar-->
-    <header>
-        <div class="container flex-cont">
+    <header class="page-header">
+        <div class="container">
             <nav class="nav-bar">
                 <a class="nav-logo-title" href="./index.html">
                     <span>Web</span>Studio
@@ -32,6 +32,8 @@
             </nav>
 
             <!--Contacts container-->
+
+
             <ul class="navigation-contacts list">
                 <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">
                         <svg class="icon-envelope">
@@ -44,6 +46,13 @@
                         </svg>+38 096 111 11 11</a>
                 </li>
             </ul>
+            <button class="burger-menu">
+                <svg width='40px' height='40px'>
+                    <use class="icon-menu" href='./images/symbol-defs.svg#icon-menu'></use>
+                    <use class="icon-cross" href='./images/symbol-defs.svg#icon-close'></use>
+                </svg>
+            </button>
+
         </div>
     </header>
 
@@ -51,13 +60,13 @@
     <main>
         <!--Hero-->
         <section class="hero">
-            <div class="overlay">
+            <div class="hero-container container">
                 <h1 class="hero-title">EFFECTIVE SOLUTIONS FOR YOUR BUSINESS</h1>
                 <a class="button-primary" href="#" data-modal-open>Order Now</a>
             </div>
         </section>
 
-        <!--Skills section-->
+        <!-- Skills section -->
         <section>
             <div class="skills-container container">
                 <ul class="list">

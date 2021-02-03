@@ -135,7 +135,7 @@ input:focus + .modal-icon {
 }
 
 .modal-checkbox:focus ~ span::before{
-    outline: 2px solid $text-color;
+    outline: 2px solid $accent-color;
 }
 
 .modal-checkbox:checked + span::before {
