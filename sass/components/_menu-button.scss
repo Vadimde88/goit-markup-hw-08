@@ -1,0 +1,64 @@
+.menu-container {
+  background-color: $main-background-color;
+
+  &.is-open {
+    display: block;
+  }
+
+  @media (max-width: $sec-tablet-width) {
+    display: none;
+    position: absolute;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    top: 101%;
+    left: 0;
+    width: 100%;
+    z-index: 999999;
+  }
+
+  @media (min-width: $tablet-width) {
+    display: flex;
+  }
+}
+
+.menu-button {
+  padding: 0;
+  margin-left: auto;
+
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+
+  &__icon {
+    fill: currentColor;
+  }
+
+  @media (min-width: $tablet-width) {
+      display: none;
+  }
+}
+
+.icon-menu {
+  display: block;
+}
+
+.icon-cross {
+  display: none;
+}
+
+.menu-button.is-open .icon-cross {
+  display: block;
+}
+
+.menu-button.is-open .icon-menu {
+  display: none;
+}

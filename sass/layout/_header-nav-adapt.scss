@@ -1,4 +1,5 @@
 .page-header {
+    position: relative;
     border-bottom: 1px solid $header-border-color;
 
     .nav-logo-title {
@@ -6,6 +7,8 @@
         font-weight: 700;
         font-size: 26px;
         line-height: 1.19;
+
+        padding: 16px 0 16px 0;
 
         color: $text-color;
         font-family: $secondary-font-family;
@@ -168,23 +171,6 @@
     .contacts-tel:hover {
         color: $accent-color;
         cursor: pointer;
-    }
-    
-    .burger-menu {
-        padding: 0;
-        margin-left: auto;
-
-        background-color: transparent;
-        border: none;
-        cursor: pointer;
-
-        .icon-cross {
-            display: none;
-        }
-
-        @media (min-width: $tablet-width) {
-            display: none;
-        }
     }
     
 }

@@ -23,31 +23,32 @@
                 <a class="nav-logo-title" href="./index.html">
                     <span>Web</span>Studio
                 </a>
+            </nav>
 
+            <div class="menu-container" id="menu-container" data-menu>
                 <ul class="navigation-links list">
                     <li class="site-nav"><a class="current" href="./index.html">Studio</a></li>
                     <li class="site-nav"><a class="nav-link" href="./portfolio.html">Portfolio</a></li>
                     <li class="site-nav"><a class="nav-link" href="">Contacts</a></li>
                 </ul>
-            </nav>
 
-            <!--Contacts container-->
+                <!--Contacts container-->
 
-
-            <ul class="navigation-contacts list">
-                <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">
-                        <svg class="icon-envelope">
-                            <use href='./images/symbol-defs.svg#icon-envelope'></use>
-                        </svg>info@devstudio.com</a>
-                </li>
-                <li class="nav-tel"><a class="contacts" href="tel:+380961111111">
-                        <svg class="icon-smartphone">
-                            <use href='./images/symbol-defs.svg#icon-smartphone'></use>
-                        </svg>+38 096 111 11 11</a>
-                </li>
-            </ul>
-            <button class="burger-menu">
-                <svg width='40px' height='40px'>
+                <ul class="navigation-contacts list">
+                    <li class="nav-email"><a class="contacts" href="mailto:info@devstudio.com">
+                            <svg class="icon-envelope">
+                                <use href='./images/symbol-defs.svg#icon-envelope'></use>
+                            </svg>info@devstudio.com</a>
+                    </li>
+                    <li class="nav-tel"><a class="contacts" href="tel:+380961111111">
+                            <svg class="icon-smartphone">
+                                <use href='./images/symbol-defs.svg#icon-smartphone'></use>
+                            </svg>+38 096 111 11 11</a>
+                    </li>
+                </ul>
+            </div>
+            <button type="button" class="menu-button" data-menu-button>
+                <svg class="menu-button__icon" width='40px' height='40px'>
                     <use class="icon-menu" href='./images/symbol-defs.svg#icon-menu'></use>
                     <use class="icon-cross" href='./images/symbol-defs.svg#icon-close'></use>
                 </svg>
@@ -485,6 +486,7 @@
         </div>
     </div>
 
+    <script src="./js/menu.js"></script>
     <script src="./js/modal.js"></script>
 </body>
 
