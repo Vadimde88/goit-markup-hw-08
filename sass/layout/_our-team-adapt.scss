@@ -2,21 +2,54 @@
     background-color: $sec-background-color;
 }
 
+.team-list {
+    @media (min-width: $tablet-width) {        
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    @media (min-width: $desktop-width) {        
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.team-photo {
+    width: 100%;
+    @media (min-width: $tablet-width) {        
+        width: 354px;
+    }
+
+    @media (min-width: $desktop-width) {        
+        width: 270px;
+    }
+}
+
 .team-person {
+    margin-bottom: 30px;
+    
     background: #FFFFFF;
 
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
+
+    &:last-child {
+    margin-: 0;
+    }
+
+    @media (min-width: $desktop-width) {
+        margin: 0;
+    }
 }
 
 .descr-container {
-     padding: 30px 32px;
-     
+    padding: 30px 32px;  
  }
  
 .names {
     margin-top: 0;
-    margin-bottom: 16px;
+    margin-bottom: 10px;
     font-weight: 500;
     @extend %fontNames;
     text-align: center;
@@ -27,9 +60,7 @@
 .profession {
     margin-top: 0;
     margin-bottom: 16px;
-    @extend %fontNames;
 
     text-align: center;
-
     color: $sec-text-color;
 }

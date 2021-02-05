@@ -156,9 +156,9 @@
         <section class="our-team-section">
             <div class="container">
                 <h2 class="section-title">Our team</h2>
-                <ul class="team list">
+                <ul class="team-list list">
                     <li class="team-person">
-                        <img src="./images/igor.jpg" alt="photo of igor" width="450">
+                        <img class="team-photo" src="./images/igor.jpg" alt="photo of igor">
                         <div class="descr-container">
                             <h3 class="names">Igor Demjanenko</h3>
                             <p class="profession">Product Designer</p>
@@ -195,7 +195,7 @@
                         </div>
                     </li>
                     <li class="team-person">
-                        <img src="./images/olga.jpg" alt="photo of olga" width="270">
+                        <img class="team-photo" src="./images/olga.jpg" alt="photo of olga" width="270">
                         <div class="descr-container">
                             <h3 class="names">Olga Repina</h3>
                             <p class="profession">Frontend Developer</p>
@@ -233,7 +233,7 @@
 
                     </li>
                     <li class="team-person">
-                        <img src="./images/nikolai.jpg" alt="photo of nikolai" width="270">
+                        <img class="team-photo" src="./images/nikolai.jpg" alt="photo of nikolai" width="270">
                         <div class="descr-container">
                             <h3 class="names">Nikolai Tarasov</h3>
                             <p class="profession">Marketing</p>
@@ -270,7 +270,7 @@
                         </div>
                     </li>
                     <li class="team-person">
-                        <img src="./images/michail.jpg" alt="photo of michail" width="270">
+                        <img class="team-photo" src="./images/michail.jpg" alt="photo of michail" width="270">
                         <div class="descr-container">
                             <h3 class="names">Michail Ermakov</h3>
                             <p class="profession">UI Designer</p>
@@ -366,53 +366,56 @@
     <!--Footer container-->
     <footer class="page-footer">
         <div class="footer-container container">
-            <div class="first-column">
-                <a class="logo-title-footer" href="./index.html">
-                    <span>Web</span><span class="studio-footer">Studio</span>
-                </a>
-                <address class="location">
-                    г. Киев, пр-т Леси Украинки, 26
-                </address>
-                <ul class="footer-contacts">
-                    <li class="footer-email"><a class="contacts-email"
-                            href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-                    <li class="footer-tel"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a></li>
-                </ul>
+            <div class="footer-unifying">
+                <div class="first-container">
+                    <a class="logo-title-footer" href="./index.html">
+                        <span>Web</span><span class="studio-footer">Studio</span>
+                    </a>
+                    <address class="location">
+                        г. Киев, пр-т Леси Украинки, 26
+                    </address>
+                    <ul class="footer-contacts list">
+                        <li class="footer-email"><a class="contacts-email"
+                                href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+                        <li class="footer-tel"><a class="contacts-tel" href="tel:+380961111111">+38 096 111 11 11</a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="second-container">
+                    <p class="subscribe">join us</p>
+                    <ul class="footer-social-links list">
+                        <li class="footer-social-item">
+                            <a class="footer-icon-link" href="#">
+                                <svg class="footer-social-icon">
+                                    <use href='./images/symbol-defs.svg#icon-instagram'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a class="footer-icon-link" href="#">
+                                <svg class="footer-social-icon">
+                                    <use href='./images/symbol-defs.svg#icon-twitter'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a class="footer-icon-link" href="#">
+                                <svg class="footer-social-icon">
+                                    <use href='./images/symbol-defs.svg#icon-facebook'></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li class="footer-social-item">
+                            <a class="footer-icon-link" href="#">
+                                <svg class="footer-social-icon">
+                                    <use href='./images/symbol-defs.svg#icon-linkedin'></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="second-column">
-                <p class="subscribe">join us</p>
-                <ul class="footer-social-links list">
-                    <li class="footer-social-item">
-                        <a class="footer-icon-link" href="#">
-                            <svg class="footer-social-icon">
-                                <use href='./images/symbol-defs.svg#icon-instagram'></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-item">
-                        <a class="footer-icon-link" href="#">
-                            <svg class="footer-social-icon">
-                                <use href='./images/symbol-defs.svg#icon-twitter'></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-item">
-                        <a class="footer-icon-link" href="#">
-                            <svg class="footer-social-icon">
-                                <use href='./images/symbol-defs.svg#icon-facebook'></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="footer-social-item">
-                        <a class="footer-icon-link" href="#">
-                            <svg class="footer-social-icon">
-                                <use href='./images/symbol-defs.svg#icon-linkedin'></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-            <div class="third-column">
+            <div class="third-container">
                 <p class="subscribe">subscribe to the newsletter</p>
                 <div class="input-foot-container">
                     <label for="footer-mail">

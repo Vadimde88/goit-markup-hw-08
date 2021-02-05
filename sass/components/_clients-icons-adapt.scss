@@ -1,0 +1,74 @@
+.logo-list {
+    display: flex;
+    flex-wrap: wrap;
+
+    @media (min-width: $desktop-width) {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.logo {
+    width: calc((100% - 1 * 30px) / 2); 
+
+    border: 1px solid $logo-color;
+    box-sizing: border-box;
+    border-radius: 4px;
+
+    &:not(:nth-last-child(-n + 2)) {
+        @media (max-width: $sec-tablet-width) {
+        margin-bottom: 30px;
+        }
+    }
+
+    &:nth-child(2n + 1) {
+        @media (max-width: $sec-tablet-width) {
+        margin-right: 30px;
+        }
+    }
+
+    @media (min-width: $tablet-width) {
+        width: calc((100% - 2 * 30px) / 3); 
+    }
+
+    &:not(:nth-child(1n+6)):not(:nth-child(3)) {
+        @media (min-width: $tablet-width) {
+        margin-right: 30px;
+        }
+    }
+
+    &:nth-child(-n + 3) {
+        @media (min-width: $tablet-width) {
+            margin-bottom: 30px;
+        }
+    }
+
+    @media (min-width: $desktop-width) {
+        width: calc((100% - 6 * 30px) / 6);
+        margin: 0 !important;
+    }
+}
+
+
+
+    
+.logo-link {
+    @extend %center;
+
+    height: 90px;
+    
+    color: $logo-color;    
+    fill: currentColor;
+
+    transition-property: fill, border-color, color, filter;
+    transition: 250ms;
+    transition-timing-function: $main-timing-function;
+
+    &:hover,
+    &:focus {
+    color: $accent-color;
+    border-color: $accent-color;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+    outline: transparent;
+    }
+}
