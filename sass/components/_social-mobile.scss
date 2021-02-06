@@ -1,0 +1,33 @@
+.social-mob-list {
+    display: flex;
+
+    @media screen and (min-width: $sec-tablet-width) {
+        display: none;
+    }
+}
+
+.social-mob-item {
+    &:not(:last-child) {
+        padding-right: 10px;
+        margin-right: 10px;
+        border-right: 1px solid rgba(33, 33, 33, 0.2);
+    }
+}
+.social-mob-link {
+    font-weight: 500;
+    font-size: calc(9px + (18 - 9) * ((100vw - 300px) / (480 - 300)));
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: $sec-text-color;
+    text-decoration: none;
+
+    transition-property: color font-size;
+    transition: 250ms;
+    transition-timing-function: $main-timing-function;
+
+    &:hover,
+    &:focus {
+        color: $accent-color;
+        outline: none;
+    }
+}

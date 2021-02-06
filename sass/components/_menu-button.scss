@@ -1,50 +1,34 @@
-.menu-container {
-  background-color: $main-background-color;
-
-  &.is-open {
-    display: block;
-  }
-
-  @media (max-width: $sec-tablet-width) {
-    display: none;
-    position: absolute;
-    padding-top: 60px;
-    padding-bottom: 60px;
-    top: 101%;
-    left: 0;
-    width: 100%;
-    z-index: 999999;
-  }
-
-  @media (min-width: $tablet-width) {
-    display: flex;
-  }
-}
-
 .menu-button {
-  padding: 0;
-  margin-left: auto;
+    padding: 0;
+    top: 10px;
+    right: 15px;
+    position: absolute;
+    z-index: 1; 
 
-  background-color: transparent;
-  border: none;
-  cursor: pointer;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 
-  transition-property: color;
-  transition-duration: 250ms;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
-  &:hover,
-  &:focus {
-    color: $accent-color;
-  }
+    &.is-open {
+      position: fixed;
+    }
 
-  &__icon {
-    fill: currentColor;
-  }
+    &:hover,
+    &:focus {
+      color: $accent-color;
+    }
 
-  @media (min-width: $tablet-width) {
-      display: none;
-  }
+    &__icon {
+      fill: currentColor;
+    }
+
+    @media (min-width: $tablet-width) {
+        display: none;
+    }
 }
 
 .icon-menu {
@@ -52,12 +36,15 @@
 }
 
 .icon-cross {
-  display: none;
+  display: none;  
+  position: fixed;
 }
 
-.menu-button.is-open .icon-cross {
-  display: block;
-}
+.menu-button.is-open {
+  .icon-cross {
+    display: block;
+  }
+} 
 
 .menu-button.is-open .icon-menu {
   display: none;
