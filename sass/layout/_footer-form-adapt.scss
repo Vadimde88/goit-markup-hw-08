@@ -1,4 +1,4 @@
-.input-foot-container {
+.third-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -7,6 +7,10 @@
         flex-direction: unset;
         align-items: baseline;
     }
+}
+
+.footer-label {
+    width: 100%;
 }
 
 .subscribe-btn {
@@ -36,7 +40,7 @@
 }
 
 .footer-input {
-    width: 358px;
+    width: 100%;
     height: 50px;    
     padding-left: 16px;
     margin-bottom: 20px;

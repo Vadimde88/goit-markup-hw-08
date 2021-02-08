@@ -23,6 +23,7 @@
     }
 
     .menu-container {
+        width: 100%;
         background-color: $main-background-color;
 
         &.is-open {
@@ -69,6 +70,7 @@
 
         @media (min-width: $tablet-width) {
             display: block;
+            margin-left: auto;
         }
 
         @media (min-width: $desktop-width) {
