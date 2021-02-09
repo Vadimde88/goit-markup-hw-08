@@ -12,6 +12,14 @@
 
     opacity: 1;
     transition: opacity 250ms $main-timing-function;
+
+    @media (min-width: $tablet-width) {
+        padding: 208px 160px;
+    }
+
+    @media (min-width: $desktop-width) {
+        padding: 222px 160px;
+    }
 }
 
 .backdrop.is-hidden {
