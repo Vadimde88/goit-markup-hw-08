@@ -1,16 +1,18 @@
 .third-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 
     @media (min-width: $desktop-width) {
-        flex-direction: unset;
-        align-items: baseline;
+        margin-left: auto;
     }
 }
 
 .footer-label {
     width: 100%;
+}
+
+.input-foot-cont {
+    @media (min-width: $desktop-width) {
+        display: flex;
+    }
 }
 
 .subscribe-btn {
@@ -70,5 +72,10 @@
     align-items: center;
 
     color: rgba(255, 255, 255, 0.6);
+    }
+
+    @media (min-width: $desktop-width) {
+        width: 358px;
+        margin: 0;
     }
 }

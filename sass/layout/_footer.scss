@@ -74,6 +74,12 @@
     color: $sec-text-color;
 
     transition: color 250ms $main-timing-function;
+
+
+    &:hover, :focus {
+        color: $accent-color;
+        cursor: pointer;
+    }
 }
 
 .footer-email {

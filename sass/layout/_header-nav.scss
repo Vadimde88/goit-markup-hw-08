@@ -29,6 +29,7 @@
         &.is-open {
             display: block;
             overflow-y: scroll;
+            z-index: 1;
         }
 
         @media (max-width: $sec-tablet-width) {
