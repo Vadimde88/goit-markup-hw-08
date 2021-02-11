@@ -40,7 +40,7 @@ section {
 }
 
 .container {
-  width: 100%;
+  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -384,6 +384,7 @@ section {
 }
 
 .page-header {
+  min-width: 480px;
   position: relative;
   border-bottom: 1px solid #ECECEC;
 }
@@ -665,6 +666,7 @@ section {
 }
 
 .hero {
+  min-width: 480px;
   max-width: 1600px;
   max-height: 400px;
   padding: 118px 0;
@@ -1038,6 +1040,8 @@ section {
 }
 
 .page-footer {
+  min-width: 480px;
+  margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: #2F303A;
@@ -1130,7 +1134,7 @@ section {
 }
 
 .footer-input {
-  width: 100%;
+  width: 450px;
   height: 50px;
   padding-left: 16px;
   margin-bottom: 20px;
