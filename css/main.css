@@ -859,6 +859,7 @@ section {
 }
 
 .our-team-section {
+  min-width: 480px;
   background-color: #F5F4FA;
 }
 
