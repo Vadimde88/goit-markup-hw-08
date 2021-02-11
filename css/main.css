@@ -40,7 +40,6 @@ section {
 }
 
 .container {
-  width: 480px;
   padding-left: 15px;
   padding-right: 15px;
   margin: 0 auto;
@@ -384,7 +383,6 @@ section {
 }
 
 .page-header {
-  min-width: 480px;
   position: relative;
   border-bottom: 1px solid #ECECEC;
 }
@@ -666,7 +664,6 @@ section {
 }
 
 .hero {
-  min-width: 480px;
   max-width: 1600px;
   max-height: 400px;
   padding: 118px 0;
@@ -859,7 +856,6 @@ section {
 }
 
 .our-team-section {
-  min-width: 480px;
   background-color: #F5F4FA;
 }
 
@@ -902,7 +898,7 @@ section {
 }
 
 .team-person:last-child {
-  margin-: 0;
+  margin: 0;
 }
 
 @media (min-width: 1200px) {
@@ -1041,7 +1037,6 @@ section {
 }
 
 .page-footer {
-  min-width: 480px;
   margin: 0 auto;
   padding-top: 60px;
   padding-bottom: 60px;

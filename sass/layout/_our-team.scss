@@ -1,5 +1,4 @@
 .our-team-section {
-    min-width: 480px;
     background-color: $sec-background-color;
 }
 
@@ -37,7 +36,7 @@
     border-radius: 0px 0px 4px 4px;
 
     &:last-child {
-    margin-: 0;
+    margin: 0;
     }
 
     @media (min-width: $desktop-width) {
