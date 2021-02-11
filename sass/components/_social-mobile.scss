@@ -18,16 +18,10 @@
     font-size: calc(9px + (18 - 9) * ((100vw - 300px) / (480 - 300)));
     line-height: 1.2;
     letter-spacing: 0.02em;
-    color: $sec-text-color;
+    color: $accent-color;
     text-decoration: none;
 
     transition-property: color font-size;
     transition: 250ms;
     transition-timing-function: $main-timing-function;
-
-    &:hover,
-    &:focus {
-        color: $accent-color;
-        outline: none;
-    }
 }

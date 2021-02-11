@@ -29,15 +29,16 @@ section {
 }
 
 .container {
+    max-width: 480px;
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
 
     @media (min-width: $tablet-width){
-        width: 768px;
+        max-width: 768px;
     }
 
     @media (min-width: $desktop-width) {
-        width: 1200px;
+        max-width: 1200px;
     }
 }

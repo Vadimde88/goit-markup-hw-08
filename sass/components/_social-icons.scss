@@ -19,9 +19,9 @@
 
     &:hover,
     &:focus {
-    color: $light-text-color;
-    background-color: $accent-color;
-    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+        color: $light-text-color;
+        background-color: $accent-color;
+        box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
     }
 }
 
