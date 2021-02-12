@@ -128,7 +128,7 @@ section {
 
 @media (min-width: 1200px) {
   .backdrop {
-    padding: 222px 160px;
+    padding: 120px 160px;
   }
 }
 
@@ -304,7 +304,12 @@ section {
   padding-bottom: 50px;
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .buttons-section {
+    justify-content: center;
+  }
 }
 
 .buttons:focus,
@@ -1006,6 +1011,7 @@ section {
 @media (min-width: 1200px) {
   .footer-container {
     display: flex;
+    align-items: baseline;
     justify-content: space-between;
   }
 }
@@ -1017,6 +1023,7 @@ section {
 @media (min-width: 768px) {
   .footer-unifying {
     display: flex;
+    align-items: baseline;
     justify-content: space-evenly;
   }
 }
@@ -1314,8 +1321,6 @@ input:focus + .modal-icon {
 }
 
 .modal-policy-text {
-  display: flex;
-  align-items: center;
   font-size: 14px;
   line-height: 1.71;
   color: #757575;
@@ -1323,8 +1328,6 @@ input:focus + .modal-icon {
 
 .policy {
   margin-bottom: 30px;
-  display: flex;
-  justify-content: center;
 }
 
 .modal-checkbox ~ span::before {
