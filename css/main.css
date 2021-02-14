@@ -448,6 +448,7 @@ section {
 .page-header .navigation-links {
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
 }
 
 @media (min-width: 768px) {
