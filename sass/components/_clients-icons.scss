@@ -15,6 +15,15 @@
     box-sizing: border-box;
     border-radius: 4px;
 
+    transition-property: border-color;
+    transition: 250ms;
+    transition-timing-function: $main-timing-function;
+
+    &:hover,
+    &:focus {
+        border-color: $accent-color;
+    }
+
     &:not(:nth-last-child(-n + 2)) {
         @media (max-width: $sec-tablet-width) {
         margin-bottom: 30px;
@@ -60,7 +69,7 @@
     color: $logo-color;    
     fill: currentColor;
 
-    transition-property: fill, border-color, color, filter;
+    transition-property: fill, color, filter;
     transition: 250ms;
     transition-timing-function: $main-timing-function;
 
