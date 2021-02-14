@@ -344,8 +344,6 @@ section {
   margin: 0;
   padding: 63px 24px;
   font-family: Roboto;
-  font-style: normal;
-  font-weight: normal;
   font-size: 18px;
   line-height: 1.55;
   color: #FFFFFF;
@@ -962,6 +960,7 @@ section {
 }
 
 .portfolio-images {
+  display: block;
   width: 100%;
 }
 
